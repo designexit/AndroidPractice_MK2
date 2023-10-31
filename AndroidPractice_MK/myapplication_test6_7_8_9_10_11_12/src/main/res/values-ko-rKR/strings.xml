@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_intro">안녕하세요. 앱 테스트입니다.</string>
+    <string name="long_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">안녕 blank fragment</string>
+    <string name="open">열기</string>
+    <string name="close">닫기</string>
+</resources>

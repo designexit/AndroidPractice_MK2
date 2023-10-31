@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/nova1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/testText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Lovely Cat"
+            style="@style/MyTextCss"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOVA"
+            style="@style/MyTextCss"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_toolbar1"
+        android:title="menu1"
+        />
+    <item
+        android:id="@+id/menu_toolbar2"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="menu2"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_toolbar3"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="menu3"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu_toolbar4"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="menu4"
+        app:showAsAction="ifRoom"
+        />
+
+    <!-- 검색 기능 : 시스템 위젯 -->
+    <item
+        android:id="@+id/menu_toolbar_search"
+        android:title="search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+
+
+</menu>
