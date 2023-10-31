@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ch10_test.TestActivity_10">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <Button
+                android:id="@+id/testToastBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="토스트 보여지고 사라지는 후처리 테스트"
+                style="@style/MyTextCss"
+                />
+
+            <Button
+                android:id="@+id/dateBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Btn"
+                />
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <Button
+                android:id="@+id/timeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Btn"
+                />
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/customDialogBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Btn"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/customDialogBtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Btn2"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/customDialogBtn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Btn3"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/customDialogBtn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Btn4"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/soundBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SoundBtn"
+                android:background="@color/black"
+                />
+
+            <Button
+                android:id="@+id/notificationBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알림 보내기 테스트"
+                />
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

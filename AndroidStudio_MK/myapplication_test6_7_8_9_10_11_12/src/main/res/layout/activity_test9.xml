@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ch9_test.TestActivity_9">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/rectangle"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/shapetest"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소스 코드에서 정적자원 가져오기 예제"
+            android:textSize="20sp"
+            android:textColor="#FF5722"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_intro"
+            android:textSize="30sp"
+            android:textColor="#FF5722"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/profile_img_width"
+            android:layout_height="@dimen/profile_img_width"
+            android:src="@drawable/nova1"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="색상 크기 재사용"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/main_text_color"
+            android:background="@color/main_text_bgcolor"
+            android:fontFamily="@font/gmarketsansttfmedium"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여러 css 요소를  style 속성으로 "
+            style="@style/MyTextCss"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
