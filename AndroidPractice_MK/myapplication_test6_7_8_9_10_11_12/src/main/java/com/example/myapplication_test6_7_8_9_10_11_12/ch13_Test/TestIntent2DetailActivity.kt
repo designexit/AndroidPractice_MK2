@@ -1,9 +1,9 @@
-package com.example.myapp_test_7_8_9_10_11_12.ch13_Test
+package com.example.myapplication_test6_7_8_9_10_11_12.ch13_Test
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapp_test_7_8_9_10_11_12.databinding.ActivityTestIntent2DetailBinding
+import com.example.myapplication_test6_7_8_9_10_11_12.databinding.ActivityTestIntent2DetailBinding
 
 class TestIntent2DetailActivity : AppCompatActivity() {
     lateinit var binding :ActivityTestIntent2DetailBinding
