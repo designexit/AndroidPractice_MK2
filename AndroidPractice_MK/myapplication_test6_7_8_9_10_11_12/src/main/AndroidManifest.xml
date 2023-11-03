@@ -23,6 +23,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication_231020_test1">
         <activity
+            android:name=".ch17_test.PreferenceTest.SharedPreferDetailTestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ch17_test.PreferenceTest.SharedPreferTestActivity"
+            android:exported="true" />
+        <activity
             android:name=".join_test.SQLite.JoinDataActivity"
             android:exported="true" />
         <activity
